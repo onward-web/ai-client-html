@@ -20,6 +20,16 @@
 		"aimeos/ai-controller-jobs": "dev-onward",
 		"aimeos/ai-controller-frontend": "dev-onward"
 	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url":  "git@github.com:onward-web/aimeos-core.git"
+		},
+		{
+			"type": "vcs",
+			"url":  "git@github.com:onward-web/ai-controller-frontend.git"
+		}
+	],
 	"autoload": {
 		"psr-4": {
 			"Aimeos\\Client\\Html\\": "client/html/src/Client/Html/",
