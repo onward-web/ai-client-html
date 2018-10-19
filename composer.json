@@ -28,6 +28,10 @@
 		{
 			"type": "vcs",
 			"url":  "git@github.com:onward-web/ai-controller-frontend.git"
+		},
+		{
+			"type": "vcs",
+			"url":  "git@github.com:onward-web/ai-controller-jobs.git"
 		}
 	],
 	"autoload": {
